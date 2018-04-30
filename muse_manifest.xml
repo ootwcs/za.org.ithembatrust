@@ -1,8 +1,8 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ithembatrust.org.za" resolutions="1x" timestamp="1524489477103">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ithembatrust.org.za" resolutions="1x" timestamp="1525092138388">
   <folder name="css">
     <file name="site_global.css" crc="127167668"/>
-    <file name="master_a-master.css" crc="222249728" ref="index"/>
-    <file name="index.css" crc="4281448541" ref="index"/>
+    <file name="master_a-master.css" crc="408600977" ref="index"/>
+    <file name="index.css" crc="3965807831" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -25,22 +25,16 @@
   </folder>
   <folder name="images">
     <file name="a-master-favicon.ico" crc="25496574" ref="index"/>
-    <file name="ndebele4.jpg" crc="180049799" ref="index">
+    <file name="background.jpg" crc="4256493842" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="image025.jpg" crc="3838907195" ref="index">
+    <file name="kids.png" crc="178382416" ref="index">
       <caption webpage="index" alt=""/>
-    </file>
-    <file name="background.jpg" crc="440278840" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="kids.png" crc="3874111437" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="kids2.png" crc="178382416" ref="index">
-      <caption webpage="index" alt=""/>
+    <file name="kids2.png" crc="3874111437" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -257,6 +251,10 @@
     <file name="justfootprintsbanner-2016-11.jpg" crc="464920085" ref="index">
       <caption webpage="index" alt=""/>
     </file>
+    <file name="banner.jpg" crc="138125479" ref="index"/>
+    <file name="image023.jpg" crc="4248051449" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
   </folder>
-  <file name="index.html" crc="4096269034" seo="true" mt="1524489433566" redirect="true"/>
+  <file name="index.html" crc="4230632671" seo="true" mt="1525092062142" redirect="true"/>
 </manifest>
