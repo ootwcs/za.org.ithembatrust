@@ -1,8 +1,8 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ithembatrust.org.za" resolutions="1x" timestamp="1525093143750">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ithembatrust.org.za" resolutions="1x" timestamp="1526017684842">
   <folder name="css">
-    <file name="site_global.css" crc="127167668"/>
-    <file name="master_a-master.css" crc="408600977" ref="index"/>
-    <file name="index.css" crc="3865908212" ref="index"/>
+    <file name="site_global.css" crc="3950294423"/>
+    <file name="master_a-master.css" crc="4212353180" ref="index"/>
+    <file name="index.css" crc="4190212109" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -10,21 +10,17 @@
     <file name="whatinput.js" crc="86476730" ref="index"/>
     <file name="museconfig.js" crc="310584261" ref="index"/>
     <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="index"/>
-    <file name="jquery.musemenu.js" crc="510910590" ref="index"/>
     <file name="jquery.watch.js" crc="51536988" ref="index"/>
     <file name="webpro.js" crc="4059564322" ref="index"/>
     <file name="form_check.php" crc="3820983874" ref="index"/>
     <file name="form_process.php" crc="3776570906" ref="index"/>
-    <file name="form-u46506.php" crc="4183103240" ref="index"/>
     <file name="musewpslideshow.js" crc="3862962738" ref="index"/>
     <file name="jquery.museoverlay.js" crc="4147669564" ref="index"/>
     <file name="touchswipe.js" crc="4075097462" ref="index"/>
-    <file name="jquery.scrolleffects.js" crc="39568856" ref="index"/>
-    <file name="html5shiv.js" crc="4241844378" ref="index"/>
     <file name="require.js" crc="7928878" ref="index"/>
+    <file name="form-u53023.php" crc="3986950647" ref="index"/>
   </folder>
   <folder name="images">
-    <file name="a-master-favicon.ico" crc="25496574" ref="index"/>
     <file name="background.jpg" crc="4256493842" ref="index">
       <caption webpage="index" alt=""/>
     </file>
@@ -39,115 +35,7 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="ithemba trust (1).jpg" crc="3805157795" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
     <file name="blank.gif" crc="4208392903" ref="index"/>
-    <file name="ithemba trust (37).jpg" crc="4236150361" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="ithemba trust (38).jpg" crc="4163040980" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="ithemba trust (39).jpg" crc="3950141187" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="ithemba trust (40).jpg" crc="433239948" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="ithemba trust (41).jpg" crc="441013341" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="ithemba trust (42).jpg" crc="24174041" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="ithemba trust (43).jpg" crc="149501952" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="ithemba trust (44).jpg" crc="33276527" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="ithemba trust (45).jpg" crc="4099207768" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="ithemba trust (46).jpg" crc="4069219270" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="ithemba trust (47).jpg" crc="4012516023" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="ithemba trust (48).jpg" crc="44259036" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="ithemba trust (49).jpg" crc="402836467" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="ithemba trust (50).jpg" crc="474474133" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="ithemba trust (51).jpg" crc="259682904" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="ithemba trust (52).jpg" crc="172578734" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="ithemba trust (53).jpg" crc="4182156495" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="ithemba trust (54).jpg" crc="3995889806" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="ithemba trust (55).jpg" crc="504532215" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="ithemba trust (56).jpg" crc="13478388" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="ithemba trust (57).jpg" crc="4090203940" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="ithemba trust (58).jpg" crc="3983956776" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="ithemba trust (59).jpg" crc="3879549392" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="ithemba trust (60)-crop-u49346.jpg" crc="302597130" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="ithemba trust (61).jpg" crc="4222728631" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="ithemba trust (62).jpg" crc="82463170" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="ithemba trust (63).jpg" crc="3886408300" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="ithemba trust (64).jpg" crc="4064233428" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="ithemba trust (65).jpg" crc="215193185" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="ithemba trust (66).jpg" crc="369116228" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="ithemba trust (67).jpg" crc="4245202552" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="ithemba trust (68).jpg" crc="471759883" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="ithemba trust (69).jpg" crc="4143298923" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="ithemba trust (70).jpg" crc="3903838576" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="ithemba trust (71).jpg" crc="4282675628" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
     <file name="loading.gif" crc="3815509949" ref="index"/>
     <file name="just-footprints-foundation-registered-trademark.png" crc="379095797" ref="index">
       <caption webpage="index" alt=""/>
@@ -248,13 +136,17 @@
     <file name="sunfield home.jpg" crc="170930634" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="justfootprintsbanner-2016-11.jpg" crc="464920085" ref="index">
+    <file name="banner.jpg" crc="138125479" ref="index"/>
+    <file name="ithemba-hope-trust-favicon.ico" crc="4079440307" ref="index"/>
+    <file name="ithemba trust.jpg" crc="266256874" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="banner.jpg" crc="138125479" ref="index"/>
-    <file name="image023.jpg" crc="4248051449" ref="index">
+    <file name="loto-nldtf-logo.jpg" crc="61024293" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="forest t 5 (1)-crop-u53174.jpg" crc="66663313" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="491471" seo="true" mt="1525093071019" redirect="true"/>
+  <file name="index.html" crc="4076731723" seo="true" mt="1526017667940" redirect="true"/>
 </manifest>
