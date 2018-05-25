@@ -19,20 +19,20 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musepolyfill.bgsize.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "jquery.watch.js", "require.js", "index.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musepolyfill.bgsize.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "jquery.watch.js", "jquery.scrolleffects.js", "require.js", "index.css"], "outOfDate":[]};
 </script>
   
   <link rel="shortcut icon" href="images/ithemba-hope-trust-favicon.ico?crc=4079440307"/>
   <title>Ithemba Hope Trust</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=3950294423"/>
-  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=4212353180"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4190212109" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=4256707004"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=3817131677" id="pagesheet"/>
   <!-- Other scripts -->
   <script type="text/javascript">
    var muReCAPTCHA2Instances = {};
 var muReCAPTCHA2OnloadCallback = function() {
-	muReCAPTCHA2Instances['widgetu53040'] = grecaptcha.render('widgetu53040_recaptcha2', {"type":"image","sitekey":"6LdjCVMUAAAAABlCzXJ0k87iTlr2yvQUA55OfvkV","size":"normal","theme":"light"});
+	muReCAPTCHA2Instances['widgetu53040'] = grecaptcha.render('widgetu53040_recaptcha2', {"sitekey":"6LdjCVMUAAAAABlCzXJ0k87iTlr2yvQUA55OfvkV","type":"image","size":"normal","theme":"light"});
 };
 </script>
     <!--custom head HTML-->
@@ -65,30 +65,31 @@ var muReCAPTCHA2OnloadCallback = function() {
     <div class="browser_width" id="u49661-bw">
      <div class="museBGSize" id="u49661"><!-- simple frame --></div>
     </div>
-    <a class="nonblock nontext anim_swing museBGSize rounded-corners" id="u184" href="index.html#top"><!-- simple frame --></a>
-    <a class="nonblock nontext anim_swing" id="u52720" href="index.html#top"><!-- simple frame --></a>
+    <a class="nonblock nontext anim_swing museBGSize ose_pre_init" id="u184" href="index.html#top"><!-- simple frame --></a>
+    <a class="nonblock nontext anim_swing" id="u52720" href="index.html#welcome"><!-- simple frame --></a>
     <a class="nonblock nontext anim_swing" id="u52724" href="index.html#footprint"><!-- simple frame --></a>
     <a class="nonblock nontext anim_swing" id="u52730" href="index.html#gallery"><!-- simple frame --></a>
     <a class="nonblock nontext anim_swing" id="u52731" href="index.html#volunteer"><!-- simple frame --></a>
     <a class="nonblock nontext anim_swing" id="u52732" href="index.html#contact"><!-- simple frame --></a>
-    <a class="nonblock nontext anim_swing clearfix" id="u52739-4" href="index.html#top"><!-- content --><p>Welcome</p></a>
+    <a class="nonblock nontext anim_swing clearfix" id="u52739-4" href="index.html#welcome"><!-- content --><p>Welcome</p></a>
     <a class="nonblock nontext anim_swing clearfix" id="u52742-4" href="index.html#footprint"><!-- content --><p>Footprint</p></a>
     <a class="nonblock nontext anim_swing clearfix" id="u52754-4" href="index.html#gallery"><!-- content --><p>Gallery</p></a>
     <a class="nonblock nontext anim_swing clearfix" id="u52757-4" href="index.html#volunteer"><!-- content --><p>Volunteer</p></a>
     <a class="nonblock nontext anim_swing clearfix" id="u52760-4" href="index.html#contact"><!-- content --><p>Contact</p></a>
     <a class="nonblock nontext anim_swing" id="u52763" href="index.html#initiatives"><!-- simple frame --></a>
     <a class="nonblock nontext anim_swing clearfix" id="u52751-4" href="index.html#initiatives"><!-- content --><p>Initiatives</p></a>
-    <div class="museBGSize" id="u53145"><!-- simple frame --></div>
    </div>
    <div class="clearfix grpelem" id="ppu1643"><!-- column -->
     <div class="clearfix colelem" id="pu1643"><!-- group -->
      <div class="grpelem" id="u1643"><!-- simple frame --></div>
      <a class="anchor_item grpelem" id="top"></a>
     </div>
-    <div class="colelem" id="u30624"><!-- simple frame --></div>
+    <div class="museBGSize clearfix colelem" id="u53280"><!-- group -->
+     <div class="museBGSize grpelem" id="u53303"><!-- simple frame --></div>
+    </div>
+    <a class="anchor_item colelem" id="welcome"></a>
     <div class="clearfix colelem" id="u52042"><!-- column -->
      <div class="position_content" id="u52042_position_content">
-      <div class="colelem" id="u52711"><!-- simple frame --></div>
       <div class="clearfix colelem" id="u52218-16"><!-- content -->
        <p>The Hope Trust trading as Ithemba Trust was established to provide funds for educational and charitable institutions of a public character in the Republic of South Africa.</p>
        <p>&nbsp;</p>
@@ -448,7 +449,7 @@ var muReCAPTCHA2OnloadCallback = function() {
      </div>
     </div>
    </div>
-   <div class="verticalspacer" data-offset-top="3941" data-content-above-spacer="3940" data-content-below-spacer="288"></div>
+   <div class="verticalspacer" data-offset-top="4604" data-content-above-spacer="4603" data-content-below-spacer="288"></div>
   </div>
   <!-- JS includes -->
   <script type="text/javascript">
@@ -465,7 +466,7 @@ var suppressMissingFileError = false
 k[1]:null,k=k&&k[2]?k[2]:null;switch(k.toLowerCase()){case "css":i=i.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");g.className+=" "+i;i=a(d(g,"color"));k=a(d(g,"backgroundColor"));i!=0||k!=0?(Muse.assets.required.splice(j,1),"undefined"!=typeof b[l]&&(i!=b[l]>>>24||k!=(b[l]&16777215))&&Muse.assets.outOfDate.push(l)):j++;g.className="version";break;case "js":j++;break;default:throw Error("Unsupported file type: "+k);}}c?c().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
 g.parentNode.removeChild(g);if(Muse.assets.outOfDate.length||Muse.assets.required.length)g="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",f&&Muse.assets.outOfDate.length&&(g+="\nOut of date: "+Muse.assets.outOfDate.join(",")),f&&Muse.assets.required.length&&(g+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(g+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(g)):alert(g)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
 setTimeout(function(){f(!0)},5E3):f()}};
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.musepolyfill.bgsize","webpro","musewpslideshow","jquery.museoverlay","touchswipe","jquery.watch"],function(c){var $ = c;$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.musepolyfill.bgsize","webpro","musewpslideshow","jquery.museoverlay","touchswipe","jquery.watch","jquery.scrolleffects"],function(c){var $ = c;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
@@ -474,6 +475,7 @@ Muse.Utils.initWidget('#slideshowu52046', ['#bp_infinity'], function(elem) { var
 Muse.Utils.initWidget('#slideshowu53159', ['#bp_infinity'], function(elem) { var widget = new WebPro.Widget.ContentSlideShow(elem, {autoPlay:true,displayInterval:3500,slideLinkStopsSlideShow:false,transitionStyle:'fading',lightboxEnabled_runtime:false,shuffle:false,transitionDuration:500,enableSwipe:true,elastic:'off',resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); $(elem).data('widget', widget); return widget; });/* #slideshowu53159 */
 Muse.Utils.initWidget('#widgetu53023', ['#bp_infinity'], function(elem) { return new WebPro.Widget.Form(elem, {validationEvent:'submit',errorStateSensitivity:'high',fieldWrapperClass:'fld-grp',formSubmittedClass:'frm-sub-st',formErrorClass:'frm-subm-err-st',formDeliveredClass:'frm-subm-ok-st',notEmptyClass:'non-empty-st',focusClass:'focus-st',invalidClass:'fld-err-st',requiredClass:'fld-err-st',ajaxSubmit:true}); });/* #widgetu53023 */
 Muse.Utils.fullPage('#page');/* 100% height page */
+$('#u184').registerOpacityScrollEffect([{"in":[-Infinity,0],"opacity":0,"fade":0},{"in":[0,0],"opacity":0},{"in":[0,Infinity],"opacity":100,"fade":657}]);/* scroll effect */
 Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 }catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};

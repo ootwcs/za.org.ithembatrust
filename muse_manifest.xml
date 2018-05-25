@@ -1,8 +1,8 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ithembatrust.org.za" resolutions="1x" timestamp="1526017684842">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ithembatrust.org.za" resolutions="1x" timestamp="1527230548615">
   <folder name="css">
     <file name="site_global.css" crc="3950294423"/>
-    <file name="master_a-master.css" crc="4212353180" ref="index"/>
-    <file name="index.css" crc="4190212109" ref="index"/>
+    <file name="master_a-master.css" crc="4256707004" ref="index"/>
+    <file name="index.css" crc="3817131677" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -19,6 +19,7 @@
     <file name="touchswipe.js" crc="4075097462" ref="index"/>
     <file name="require.js" crc="7928878" ref="index"/>
     <file name="form-u53023.php" crc="3986950647" ref="index"/>
+    <file name="jquery.scrolleffects.js" crc="39568856" ref="index"/>
   </folder>
   <folder name="images">
     <file name="background.jpg" crc="4256493842" ref="index">
@@ -141,12 +142,13 @@
     <file name="ithemba trust.jpg" crc="266256874" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="loto-nldtf-logo.jpg" crc="61024293" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
     <file name="forest t 5 (1)-crop-u53174.jpg" crc="66663313" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
+    <file name="logo-u53280-fr.jpg" crc="4010182184" ref="index"/>
+    <file name="nlc-logo-lotto-funded-lores.jpg" crc="466227251" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
   </folder>
-  <file name="index.html" crc="4076731723" seo="true" mt="1526017667940" redirect="true"/>
+  <file name="index.html" crc="77884723" seo="true" mt="1527230258903" redirect="true"/>
 </manifest>
