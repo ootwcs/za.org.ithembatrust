@@ -25,14 +25,14 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <link rel="shortcut icon" href="images/ithemba-hope-trust-favicon.ico?crc=4079440307"/>
   <title>Ithemba Hope Trust</title>
   <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=3950294423"/>
-  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=4256707004"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=3817131677" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=127167668"/>
+  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=29535287"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4294951005" id="pagesheet"/>
   <!-- Other scripts -->
   <script type="text/javascript">
    var muReCAPTCHA2Instances = {};
 var muReCAPTCHA2OnloadCallback = function() {
-	muReCAPTCHA2Instances['widgetu53040'] = grecaptcha.render('widgetu53040_recaptcha2', {"sitekey":"6LdjCVMUAAAAABlCzXJ0k87iTlr2yvQUA55OfvkV","type":"image","size":"normal","theme":"light"});
+	muReCAPTCHA2Instances['widgetu53040'] = grecaptcha.render('widgetu53040_recaptcha2', {"type":"image","sitekey":"6LdjCVMUAAAAABlCzXJ0k87iTlr2yvQUA55OfvkV","theme":"light","size":"normal"});
 };
 </script>
     <!--custom head HTML-->
@@ -65,7 +65,6 @@ var muReCAPTCHA2OnloadCallback = function() {
     <div class="browser_width" id="u49661-bw">
      <div class="museBGSize" id="u49661"><!-- simple frame --></div>
     </div>
-    <a class="nonblock nontext anim_swing museBGSize ose_pre_init" id="u184" href="index.html#top"><!-- simple frame --></a>
     <a class="nonblock nontext anim_swing" id="u52720" href="index.html#welcome"><!-- simple frame --></a>
     <a class="nonblock nontext anim_swing" id="u52724" href="index.html#footprint"><!-- simple frame --></a>
     <a class="nonblock nontext anim_swing" id="u52730" href="index.html#gallery"><!-- simple frame --></a>
@@ -78,6 +77,8 @@ var muReCAPTCHA2OnloadCallback = function() {
     <a class="nonblock nontext anim_swing clearfix" id="u52760-4" href="index.html#contact"><!-- content --><p>Contact</p></a>
     <a class="nonblock nontext anim_swing" id="u52763" href="index.html#initiatives"><!-- simple frame --></a>
     <a class="nonblock nontext anim_swing clearfix" id="u52751-4" href="index.html#initiatives"><!-- content --><p>Initiatives</p></a>
+    <div class="museBGSize" id="u53351"><!-- simple frame --></div>
+    <a class="nonblock nontext anim_swing museBGSize ose_pre_init" id="u184" href="index.html#top"><!-- simple frame --></a>
    </div>
    <div class="clearfix grpelem" id="ppu1643"><!-- column -->
     <div class="clearfix colelem" id="pu1643"><!-- group -->
@@ -449,7 +450,7 @@ var muReCAPTCHA2OnloadCallback = function() {
      </div>
     </div>
    </div>
-   <div class="verticalspacer" data-offset-top="4604" data-content-above-spacer="4603" data-content-below-spacer="288"></div>
+   <div class="verticalspacer" data-offset-top="4578" data-content-above-spacer="4577" data-content-below-spacer="288"></div>
   </div>
   <!-- JS includes -->
   <script type="text/javascript">
@@ -475,7 +476,7 @@ Muse.Utils.initWidget('#slideshowu52046', ['#bp_infinity'], function(elem) { var
 Muse.Utils.initWidget('#slideshowu53159', ['#bp_infinity'], function(elem) { var widget = new WebPro.Widget.ContentSlideShow(elem, {autoPlay:true,displayInterval:3500,slideLinkStopsSlideShow:false,transitionStyle:'fading',lightboxEnabled_runtime:false,shuffle:false,transitionDuration:500,enableSwipe:true,elastic:'off',resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); $(elem).data('widget', widget); return widget; });/* #slideshowu53159 */
 Muse.Utils.initWidget('#widgetu53023', ['#bp_infinity'], function(elem) { return new WebPro.Widget.Form(elem, {validationEvent:'submit',errorStateSensitivity:'high',fieldWrapperClass:'fld-grp',formSubmittedClass:'frm-sub-st',formErrorClass:'frm-subm-err-st',formDeliveredClass:'frm-subm-ok-st',notEmptyClass:'non-empty-st',focusClass:'focus-st',invalidClass:'fld-err-st',requiredClass:'fld-err-st',ajaxSubmit:true}); });/* #widgetu53023 */
 Muse.Utils.fullPage('#page');/* 100% height page */
-$('#u184').registerOpacityScrollEffect([{"in":[-Infinity,0],"opacity":0,"fade":0},{"in":[0,0],"opacity":0},{"in":[0,Infinity],"opacity":100,"fade":657}]);/* scroll effect */
+$('#u184').registerOpacityScrollEffect([{"fade":0,"in":[-Infinity,0],"opacity":0},{"in":[0,0],"opacity":0},{"fade":657,"in":[0,Infinity],"opacity":100}]);/* scroll effect */
 Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 }catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
